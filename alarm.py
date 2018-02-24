@@ -24,7 +24,7 @@ def weather():
 	engine = pyttsx.init()
 	rate = engine.getProperty('rate')
 	engine.setProperty('rate', rate-75)
-	api_key = "b1f4399aff5fb71fe9fad48c02c88f14"
+	api_key = ""
 	lat = 38.952893
 	lng = -90.222545
 	forecast = forecastio.load_forecast(api_key, lat, lng)
